@@ -1,11 +1,11 @@
 package com.example.android.reportcard;
 
-import android.support.v7.app.AppCompatActivity;
+
 
 /**
  * Created by lokesh on 27/6/16.
  */
-public class ReportCard extends AppCompatActivity {
+public class ReportCard  {
 
     private String mSubjectName;
     private  String mSubjectGrade;
