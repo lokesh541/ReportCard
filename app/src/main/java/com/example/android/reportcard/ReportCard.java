@@ -25,5 +25,17 @@ public class ReportCard  {
     }
 
 
+    public void  setSubjectGrade(String subjectGrade) {
 
+        mSubjectGrade = subjectGrade;
+
+    }
+
+    @Override
+    public String toString() {
+        return "ReportCard{" +
+                "mSubjectName='" + mSubjectName + '\'' +
+                ", mSubjectGrade='" + mSubjectGrade + '\'' +
+                '}';
+    }
 }
